@@ -1,6 +1,6 @@
 # Tooling
 
-In dit document staat een overzicht een tool die gebruikt kan worden om mee te experimenteren.
+gUFO-gebruikers kunnen ook de volgende tool gratis gebruiken kan om mee te experimenteren.
 
 - [PLDN TriplyDB](https://data.pldn.nl/)
 
