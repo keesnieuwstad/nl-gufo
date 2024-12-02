@@ -1,6 +1,6 @@
 # NL-gUFO
 
-Lab environment for gUFO practioners in the Netherlands
+Lab environment for gUFO practioners in the Netherlands<br>
 Experimenteeromgeving voor gUFO-gebruikers in Nederland
 
 ### Toelichting
