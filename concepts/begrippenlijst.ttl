@@ -1,0 +1,1072 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix gufo: <http://purl.org/nemo/gufo#> .
+@prefix beg-gufo: <http://begrippen.gufo.nl/id/concept/> .
+@prefix begkr-gufo: <http://begrippen.gufo.nl/id/conceptschema/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+# DIT BEGRIPPENKADER (zoveel mogelijk hetzelfde opgezet als de NL-SBB thesaurus)
+
+#begrippenkader
+begkr-gufo:nlgufo
+  a skos:ConceptScheme ;
+  a dcat:Dataset ;
+  rdfs:label "Begrippenkader nl-gufo"@nl ;
+  skos:hasTopConcept
+    beg-gufo:Individual ,
+    beg-gufo:Type ;
+  skos:prefLabel "Begrippenkader voor de Nederlandse vertaling van gUFO"@nl ;
+  skos:altLabel "nlgufo"@nl ;
+  owl:versionInfo "Versie 0.1.0 snapshot 1" ;
+  skos:editorialNote "vertalingen en definities duidelijk en consistent maken met eventueel een extra uitleg/toelichting en voorbeelden"@nl
+.
+
+<http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> a dcat:Dataset ;
+    rdfs:label "Versie 0.1.0 snapshot 1 van het begrippenkader nl-gufo"@nl ;
+    dct:isVersionOf begkr-gufo:nlgufo ;
+.
+
+# BESCHRIJVING VAN DE KLASSEN
+
+
+#abstract individu
+beg-gufo:AbstractIndividual
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "abstract individual" ;
+  skos:prefLabel
+    "abstract individual"@en ,
+    "abstract individu"@nl ;
+  skos:definition
+    "Een individu dat niet op dezelfde manier in de ruimte-tijd bestaat als een concreet individu."@nl ,
+    "An individual that does not exist in space-time in the same way as a concrete individual does. "@en ;
+  skos:scopeNote
+    "Een abstract individu heeft geen spatio-temporele kwaliteiten op zichzelf. Daarom is het niet zinvol om te vragen hoeveel ruimte het nu inneemt en wanneer het is gecreëerd of vernietigd."@nl ,
+    "An abstract individual has no spatio-temporal qualities in its own right. Hence, it does not make sense to ask how much space it now occupies and when it was created or destroyed."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#AbstractIndividual> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#abstract individu type
+beg-gufo:AbstractIndividualType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "abstract individual type" ;
+  skos:prefLabel
+    "abstract individual typ"@en ,
+    "abstract individu type"@nl ;
+  skos:definition
+    "Een type waarvan de instanties abstracte individuen zijn."@nl ,
+    "A type whose instances are abstract individuals."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#AbstractIndividualType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#anti-rigide type
+beg-gufo:AntiRigidType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "anti-rigid type" ;
+  skos:prefLabel
+    "anti-rigid type"@en ,
+    "anti-rigide type"@nl ;
+  skos:definition
+    "Een niet-rigide type dat afhankelijk van de omstandigheden wordt toegepast op al zijn instanties."@nl ,
+    "A non-rigid type that applies contingently to all its instances."@en ;
+  skos:scopeNote
+    "..."@en ,
+    "..."@nl ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#AntiRigidType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#aspect
+beg-gufo:Aspect
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "aspect" ;
+  skos:prefLabel
+    "aspect"@en ,
+    "aspect"@nl ;
+  skos:definition
+    "Een blijvend object die voor zijn bestaan afhankelijk is van ten minste één ander concreet individu."@nl ,
+    "An endurant that depends on at least one other concrete individual for its existence. "@en ;
+  skos:scopeNote
+    "Een aspect is een kenmerk of eigenschap van een concreet individu dat zelf als individu wordt opgevat."@nl ,
+    "An aspect is a characteristic or trait of a concrete individual that is itself conceived as an individual."@nl ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Aspect> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#categorie
+beg-gufo:Category
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "category" ;
+  skos:prefLabel
+    "category"@en ,
+    "categorie"@nl ;
+  skos:definition
+    "Een blijvend object type dat zowel niet-sortaal als rigide is. Het vangt essentiële properties op die van toepassing zijn op instanties van verschillende soorten."@nl ,
+    "An endurant type that is both non-sortal and rigid. It captures essential properties that apply to instances of different kinds."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Category> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#collectie
+beg-gufo:Collection
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "collection" ;
+  skos:prefLabel
+    "collection"@en ,
+    "collectie"@nl ;
+  skos:definition
+    "Een complex object waarvan de onderdelen (de leden van de collectie) een uniforme structuur hebben (d.w.z. leden worden opgevat alsof ze dezelfde rol spelen in de collectie)."@nl ,
+    "A complex object whose parts (the members of the collection) have a uniform structure (i.e., members are conceived as playing the same role in the collection)."@en ;
+  skos:scopeNote
+    "Collecties kunnen een vast of variabel lidmaatschap hebben, dat kan worden bevestigd met behulp van respectievelijk gufo:FixedCollection en gufo:VariableCollection."@nl ,
+    "Collections may have a fixed or variable membership, which can be asserted using gufo:FixedCollection and gufo:VariableCollection respectively."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Collection> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#vergelijkend relatietype
+beg-gufo:ComparativeRelationshipType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "comparative relationship type" ;
+  skos:prefLabel
+    "comparative relationship type"@en ,
+    "vergelijkend relatietype"@nl ;
+  skos:definition
+    "Een relatie type dat is afgeleid uit intrinsieke aspecten van de gerelateerde entiteiten."@nl ,
+    "A relationship type derived from intrinsic aspects of the related entities."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#ComparativeRelationshipType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#concreet individu
+beg-gufo:ConcreteIndividual
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "concrete individual" ;
+  skos:prefLabel
+    "concrete individual"@en ,
+    "concreet individu"@nl ;
+  skos:definition
+    "Een individu die in de ruimte-tijd bestaat."@nl ,
+    "An individual that exists in space-time."@en ;
+  skos:scopeNote
+    "..."@en ,
+    "..."@nl ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#ConcreteIndividual> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#concreet individu type
+beg-gufo:ConcreteIndividualType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "concrete individual type" ;
+  skos:prefLabel
+    "concrete individual type"@en ,
+    "concreet individu type"@nl ;
+  skos:definition
+    "Een type waarvan de instanties concrete individuen zijn."@nl ,
+    "A type whose instances are concrete individuals."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#ConcreteIndividualType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#blijvend object
+beg-gufo:Endurant
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "endurant" ;
+  skos:prefLabel
+    "endurant"@en ,
+    "blijvend object"@nl ;
+  skos:definition
+    "Een concreet individu dat in de tijd blijft bestaan ​​en kwalitatief kan veranderen, maar toch zijn identiteit behoudt."@nl ,
+    "A concrete individual that endures in time and may change qualitatively while keeping its identity"@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Endurant> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#blijvend objecttype
+beg-gufo:EndurantType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "endurant type" ;
+  skos:prefLabel
+    "endurant type"@en ,
+    "blijvend objecttype"@nl ;
+  skos:definition
+    "Een type waarvan de instanties blijvende objecten zijn."@nl ,
+    "A type whose instances are endurants."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#EndurantType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#gebeurtenis
+beg-gufo:Event
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "event" ;
+  skos:prefLabel
+    "event"@en ,
+    "gebeurtenis"@nl ;
+  skos:definition
+    "Een concreet individu dat 'voorkomt' of 'gebeurt' in de tijd."@nl ,
+    "A concrete individual that 'occurs' or 'happens' in time."@en ;
+  skos:scopeNote
+    "Ze kunnen onmiddellijk of langdurig zijn. Gebeurtenissen zijn die dingen die gebeuren met of worden uitgevoerd door blijvende objecten."@nl ,
+    "They may be instantaneous or long-running. Events are those things that happen to or are performed by endurants."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Event> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#gebeurtenistype
+beg-gufo:EventType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "event type" ;
+  skos:prefLabel
+    "event type"@en ,
+    "gebeurtenistype"@nl ;
+  skos:definition
+    "Een type waarvan de instanties gebeurtenissen zijn."@nl ,
+    "A type whose instances are events"@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#EventType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#extrinsiek aspect
+beg-gufo:ExtrinsicAspect
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "extrinsic aspect" ;
+  skos:prefLabel
+    "extrinsic aspect"@en ,
+    "extrinsiek aspect"@nl ;
+  skos:definition
+    "Een aspect dat afhankelijk is van één of meer concrete individuen."@nl ,
+    "An aspect that depends on one or more concrete individuals."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#ExtrinsicAspect> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#extrinsieke modus
+beg-gufo:ExtrinsicMode
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "extrinsic modus" ;
+  skos:prefLabel
+    "extrinsic modus"@en ,
+    "extrinsieke modus"@nl ;
+  skos:definition
+    "Een extrinsiek aspect dat een bestanddeel is van een concreet individu en dat voor zijn bestaan afhankelijk is van anderen."@nl ,
+    "A extrinsic aspect that inheres in a concrete individual and depends on others for its existence."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#ExtrinsicMode> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#vaste collectie
+beg-gufo:FixedCollection
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "fixed collection" ;
+  skos:prefLabel
+    "fixed collection"@en ,
+    "vaste collectie"@nl ;
+  skos:definition
+    "Een collectie waarbij geen wisseling van leden mogelijk is."@nl ,
+    "A collection for which no change in membership is possible."@en ;
+  skos:scopeNote
+    "Een collectie met een vaste samenstelling van de leden"@nl ,
+    "A collection with a fixed composition of members"@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#FixedCollection> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#individu
+beg-gufo:Individual
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "individual" ;
+  skos:prefLabel
+    "individual"@en ,
+    "individu"@nl ;
+  skos:definition
+    "Een entiteit die niet geïnstantieerd kan worden."@nl ,
+    "An entity that cannot be instantiated."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Individual> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#instrinsiek aspect
+beg-gufo:IntrinsicAspect
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "instrinsic aspect" ;
+  skos:prefLabel
+    "instrinsic aspect"@en ,
+    "instrinsiek aspect"@nl ;
+  skos:definition
+    "Een aspect dat afhankelijk is van één enkel concreet individu waarin het besloten ligt."@nl ,
+    "An aspect that depends on a single concrete individual in which it inheres."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#IntrinsicAspect> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#instrinsieke modus
+beg-gufo:IntrinsicMode
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "instrinsic mode" ;
+  skos:prefLabel
+    "instrinsic mode"@en ,
+    "instrinsieke modus"@nl ;
+  skos:definition
+    "Een intrinsiek aspect dat niet meetbaar is."@nl ,
+    "A intrinsic aspect that is not measurable."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#IntrinsicMode> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#soort
+beg-gufo:Kind
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "kind" ;
+  skos:prefLabel
+    "kind"@en ,
+    "soort"@nl ;
+  skos:definition
+    "Een endurant type dat zowel sortal als rigid is."@nl ,
+    "A endurant type that is both sortal and rigid."@en ;
+  skos:scopeNote
+    "Het biedt een uniform principe van identiteit voor zijn instanties. Elk blijvend object instantieert één en maximaal één soort."@nl ,
+    "It provides a uniform principle of identity for its instances. Every endurant instantiates one and only one kind."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Kind> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#materiaal relatie type
+beg-gufo:MaterialRelationshipType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "material relationship type" ;
+  skos:prefLabel
+    "material relationship type"@en ,
+    "materiaal relatie type"@nl ;
+  skos:definition
+    "Een relatie type afgeleid van extrinsieke aspecten van de gerelateerde entiteiten."@nl ,
+    "A relationship type derived from extrinsic aspects of the related entities."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#MaterialRelationshipType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#mengsel
+beg-gufo:Mixin
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "mixin" ;
+  skos:prefLabel
+    "mixin"@en ,
+    "mengsel"@nl ;
+  skos:definition
+    "Een blijvend object type dat zowel niet-sortaal als semi-rigide is."@nl ,
+    "An endurant type that is both non-sortal and semi-rigid. "@en ;
+  skos:scopeNote
+    "Als semi-rigide type is het van toepassing op sommige van zijn instanties en toevallig/conditioneel op sommige andere"@nl ,
+    "Als niet-sortaal type vangt het eigenschappen op die worden gedeeld door instanties van verschillende soorten."@nl ,
+    "As a semi-rigid type, it applies necessarily to some of its instances and contingently to some others"@en , 
+    "As a non-sortal, it captures properties shared by instances of different kinds"@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Mixin> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#niet-rigide type
+beg-gufo:NonRigidType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "non-rigid type" ;
+  skos:prefLabel
+    "non-rigid type"@en ,
+    "niet-rigide type"@nl ;
+  skos:definition
+    "Een duurzaam type dat niet noodzakelijkerwijs op ten minste één van de instanties van toepassing is..."@nl ,
+    "A endurant type that does not apply necessarily to at least one of its instances."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#NonRigidType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#niet sortaal
+beg-gufo:NonSortal
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "non-sortal" ;
+  skos:prefLabel
+    "non-sortal"@en ,
+    "niet sortaal"@nl ;
+  skos:definition
+    "Een blijvend object type dat op verschillende typen individuen van toepassing is."@nl ,
+    "A endurant type that applies to individuals of different kinds."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#NonSortal> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#object
+beg-gufo:Object
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "object" ;
+  skos:prefLabel
+    "object"@en ,
+    "object"@nl ;
+  skos:definition
+    "Een blijvend object dat voor zijn bestaan niet afhankelijk is van een ander blijvend object (met uitzondering van de essentiële onderdelen en aspecten)."@nl ,
+    "An endurant that does not depend on another endurant for its existence (excluding its essential parts and aspects)."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Object> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#deelname
+beg-gufo:Participation
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "participation" ;
+  skos:prefLabel
+    "participation"@en ,
+    "deelname"@nl ;
+  skos:definition
+    "Een gebeurtenis die afhankelijk is van één enkel object."@nl ,
+    "An event that depends on a single object."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Participation> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#fase
+beg-gufo:Phase
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "phase" ;
+  skos:prefLabel
+    "phase"@en ,
+    "fase"@nl ;
+  skos:definition
+    "Een blijvend object type dat zowel sortaal als anti-rigide is. Het wordt gedefinieerd door toevallige/conditionele, intrinsieke instantiatie voorwaarden."@nl ,
+    "A endurant type that is both sortal and anti-rigid. It is defined by instrinsic but contingent instantiation conditions."@en ;
+  skos:scopeNote
+    "Fases zijn relationeel onafhankelijke typen die intrinsieke eigenschappen vastleggen die worden gedeeld door instanties van een bepaald type."@nl ,
+    "Phases are relationally independent types that capturec instrinsic properties shared by instances of a given kind."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Phase> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#fase mengsel
+beg-gufo:PhaseMixin
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "phase mixin" ;
+  skos:prefLabel
+    "phase mixin"@en ,
+    "fase mengsel"@nl ;
+  skos:definition
+    "Een blijvend object type dat zowel niet-sortaal als anti-rigide is. Het wordt gedefinieerd door toevallige/conditionele intrinsieke instantiatie voorwaarden."@nl ,
+    "An endurant type that is both non-sortal and anti-rigid. It is defined by instrinsic but contingent instantiation conditions."@en ;
+  skos:scopeNote
+    "Fase mengels zijn relationeel onafhankelijke typen, die intrinsieke eigenschappen vastleggen die worden gedeeld door instanties van verschillende soorten."@nl ,
+    "Phase mixins are relationally independent types that capture instrinsic properties shared by instances of different kinds."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#PhaseMixin> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#kwaliteit
+beg-gufo:Quality
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "quality" ;
+  skos:prefLabel
+    "quality"@en ,
+    "kwaliteit"@nl ;
+  skos:definition
+    "Een intrinsiek aspect dat meetbaar is in sommige waarderuimtes."@nl ,
+    "A intrinsic aspect that is measurable by some value spaces."@en ;
+  skos:scopeNote
+    "Een kwaliteit kan worden gebruikt om individuen te vergelijken, op basis van de waarde die het inneemt in een bepaalde kwaliteitsruimte (bijvoorbeeld een positie binnen het RGB-spectrum)."@nl ,
+    "A quality may be used to compare individuals, on the basis of the value it takes in a certain quality space (for instance, a position within the RGB spectrum)."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Quality> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#kwaliteitswaarde
+beg-gufo:QualityValue
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "quality value" ;
+  skos:prefLabel
+    "quality value"@en ,
+    "kwaliteitswaarde"@nl ;
+  skos:definition
+    "Een abstract individu die gekoppeld kan worden aan een kwaliteit, die de perceptie of opvatting van die kwaliteit in een bepaalde waarderuimte weerspiegelt."@nl ,
+    "A abstract individual that can be associated with a quality reflecting the perception or conception of the quality in a certain value space."@en ;
+  skos:scopeNote
+    "Een waarde die toegekend wordt aan een kwaliteit"@nl ,
+    "A value assigned to a quality"@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#QualityValue> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#kwaliteitwaarde toekenningssituatie
+beg-gufo:QualityValueAttributionSituation
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "quality value attribution situation" ;
+  skos:prefLabel
+    "quality value attribution situation"@en ,
+    "kwaliteitwaarde toekenningssituatie"@nl ;
+  skos:definition
+    "Een situatie waarin aan een blijvend object tijdelijk een kwaliteitswaarde wordt toegekend."@nl ,
+    "A situation in which a quality value is temporarily attributed to a endurant."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#QualityValueAttributionSituation> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#hoeveelheid
+beg-gufo:Quantity
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "quantity" ;
+  skos:prefLabel
+    "quantity"@en ,
+    "hoeveelheid"@nl ;
+  skos:definition
+    "Een complex object dat een verbonden deel van materie/substantie is."@nl ,
+    "A complex object that is a maximally-connected portion of stuff. "@en ;
+  skos:scopeNote
+    "Een hoeveelheid heeft een vaste samenstelling, en het verwijderen of toevoegen van een subhoeveelheid resulteert in een andere hoeveelheid."@nl ,
+    "A quantity has a fixed constitution, and thus, removing or adding a sub-quantity would result in a different quantity."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Quantity> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#relatietype
+beg-gufo:RelationshipType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "relationship type" ;
+  skos:prefLabel
+    "relationship type"@en ,
+    "relatietype"@nl ;
+  skos:definition
+    "Een type waarvan de instanties geordende paren van gerelateerde entiteiten zijn."@nl ,
+    "A type whose instances are ordered pairs of related entities. "@en ;
+  skos:scopeNote
+    "Instanties van relatietype zijn object properties in UFO-gebaseerde ontologieën."@nl ,
+    "Instances of relationship type are object properties in UFO-based ontologies."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#RelationshipType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#relatiedrager
+beg-gufo:Relator
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "relator" ;
+  skos:prefLabel
+    "relator"@en ,
+    "relatiedrager"@nl ;
+  skos:definition
+    "Een extrinsiek aspect dat twee of meer concrete individuen verbindt (betrekt, bemiddelt)."@nl ,
+    "An extrinsic aspect that connects (involves, mediates) two or more concrete individuals."@en ;
+  skos:scopeNote
+    "Relators zijn relaties die verzelfstandigt zijn en die bestaan uit wederkerige extrinsieke modi."@nl ,
+    "Relators are reified relationships composed of reciprocal extrinsic modes."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Relator> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#rigide type
+beg-gufo:RigidType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "rigid type" ;
+  skos:prefLabel
+    "rigid type"@en ,
+    "rigide type"@nl ;
+  skos:definition
+    "Een blijvend object type dat van toepassing is op alle instanties van dat type"@nl ,
+    "A endurant type which applies necessarily to its instances."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#RigidType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#rol
+beg-gufo:Role 
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "role" ;
+  skos:prefLabel
+    "role"@en ,
+    "rol"@nl ;
+  skos:definition
+    "Een blijvend object type dat zowel sortaal als anti-rigide is. Het wordt gedefinieerd door relationele instantiatie voorwaarden."@nl ,
+    "A endurant type that both sortal and anti-rigid. It is defined by relational instantiation conditions."@en ;
+  skos:scopeNote
+    "Rollen zijn relationeel afhankelijke typen, die relationele eigenschappen vastleggen die worden gedeeld door instanties van een bepaald type."@nl ,
+    "Roles are relationally dependent types, capturing relational properties shared by instances of a given kind."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Role> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#rol mengsel
+beg-gufo:RoleMixin
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "role mixin" ;
+  skos:prefLabel
+    "role mixin"@en ,
+    "rol mengsel"@nl ;
+  skos:definition
+    "Een blijvend object type dat zowel niet-sortaal als anti-rigide is. Het wordt gedefinieerd door relationele instantiatie voorwaarden"@nl ,
+    "An endurant type that is both non-sortal and anti-rigid. It is defined by relational instantiation conditions."@en ;
+  skos:scopeNote
+    "Rol mengsels zijn relationeel afhankelijke typen, die relationele eigenschappen vastleggen die worden gedeeld door instanties van verschillende soorten."@nl ,
+    "Role mixins are relationally dependent types, capturing relational properties shared by instances of different kinds."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#RoleMixin> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#semi-rigide type
+beg-gufo:SemiRigidType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "semi-rigid type" ;
+  skos:prefLabel
+    "semi-rigid type"@en ,
+    "semi-rigide type"@nl ;
+  skos:definition
+    "Een niet-rigide type dat afhankelijk van de situatie voor één (of meer) instanties van dat type kan wijzigen naar een ander type."@nl ,
+    "A non-rigid type that applies necessarily to some of its instances and contingently to some others."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#SemiRigidType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#situatie
+beg-gufo:Situation
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "situation" ;
+  skos:prefLabel
+    "situation"@en ,
+    "toestand"@nl ;
+  skos:altLabel
+    "state of affairs"@en ,
+    "stand van zaken"@nl ,
+    "situatie"@nl ;
+  skos:definition
+    "Een concreet individu met een bepaalde configuratie van een deel van de realiteit, waarin entiteiten relaties met elkaar hebben die als een geheel begrepen kunnen worden."@nl ,
+    "A concrete individual that is a particular configuration of a part of reality which can be understood as a whole and in which entities stand in relations."@en ;
+  skos:scopeNote
+    "Een toestand kan actueel of niet-feitelijk/tegengesteld/omgekeerd zijn. Een actuele situatie (een feit) ontstaat op een bepaald moment of gedurende een tijdsinterval."@nl ,
+    "A situation may be counterfactual or actual. An actual situation (a fact) occurs in a certain time instant or during a time interval."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Situation> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#situatietype
+beg-gufo:SituationType
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "situation type" ;
+  skos:prefLabel
+    "situation type"@en ,
+    "toestandstype"@nl ;
+  skos:definition
+    "Een type waarvan de instanties toestanden zijn."@nl ,
+    "A type whose instances are situations."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#SituationType> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#sortaal
+beg-gufo:Sortal
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "sortal" ;
+  skos:prefLabel
+    "sortal"@en ,
+    "sortaal"@nl ;
+  skos:definition
+    "Een blijvend object type die het principe van identiteit voor zijn instanties draagt..."@nl ,
+    "An endurant type which carries (or supplies) a principle of identity for its instances..."@en ;
+  skos:scopeNote
+    "Een sortaal wordt gebruikt om een categorie of soort aan te duiden, die helpt bij het identificeren en tellen van objecten. Het geeft duidelijke regels om te bepalen wat wel of niet bij die soort hoort."@nl ,
+    "A sortal is used to indicate a category or kind, which helps in identifying and counting objects. It gives clear rules to determine what does or does not belong to that kind."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Sortal> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#sub-soort
+beg-gufo:SubKind
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "sub-kind" ;
+  skos:prefLabel
+    "sub-kind"@en ,
+    "sub-soort"@nl ;
+  skos:definition
+    "Een blijvend object type dat zowel sortaal als rigide is. Het specialiseert een soort die het principe van identiteit draagt."@nl ,
+    "An endurant type that is both sortal and rigid. It specializes a kind carrying the principle of identity supplied by that kind. "@en ;
+  skos:scopeNote
+    "Elke sub-soort zou direct of indirect een soort moeten specialiseren."@nl ,
+    "Every sub-kind should directly or indirectly specialize a kind."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#SubKind> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#tijdelijke samenstellingssituatie
+beg-gufo:TemporaryConstitutionSituation
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "temporary constitution situation" ;
+  skos:prefLabel
+    "temporary constitution situation"@en ,
+    "tijdelijke samenstellingssituatie"@nl ;
+  skos:definition
+    "Een situatie waarin een blijvend object tijdelijk een ander blijvend vormt."@nl ,
+    "A situation in which a endurant temporarily constitutes another endurant."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#TemporaryConstitutionSituation> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#tijdelijke instantiatie situatie
+beg-gufo:TemporaryInstantiationSituation
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "temporary instantiation situation" ;
+  skos:prefLabel
+    "temporary instantiation situation"@en ,
+    "tijdelijke instantiatie situatie"@nl ;
+  skos:definition
+    "A situation in which an endurant temporarily instantiates a non-rigid type."@nl ,
+    "Een situatie waarin een blijvend object tijdelijk een niet-rigide type instantieert."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#TemporaryInstantiationSituation> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#tijdelijke deel-geheel situatie
+beg-gufo:TemporaryParthoodSituation
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "temporary parthood situation" ;
+  skos:prefLabel
+    "temporary parthood situation"@en ,
+    "tijdelijke deel-geheel situatie"@nl ;
+  skos:definition
+    "Een situatie waarin een blijvend object tijdelijk deel uitmaakt van een ander blijvend object."@nl ,
+    "A situation in which a endurant is temporarily a part of another endurant."@en ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#TemporaryParthoodSituation> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#tijdelijke relatie situatie
+beg-gufo:TemporaryRelationshipSituation
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "temporary relationship situation" ;
+  skos:prefLabel
+    "temporary relationship situation"@en ,
+    "tijdelijke relatie situatie"@nl ;
+  skos:definition
+    "Een situatie waarin een blijvend object tijdelijk een relatie heeft met een ander blijvend object (of meerdere blijvende objecten bij n-aire relaties)."@nl ,
+    "A situation in which an endurant temporarily stands in a relation with another endurant (or other endurants in the case of n-ary relationships)."@en ;
+  skos:scopeNote
+    "..."@en ,
+    "..."@nl ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#TemporaryRelationshipSituation> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#type
+beg-gufo:Type
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "type" ;
+  skos:prefLabel
+    "type"@en ,
+    "type"@nl ;
+  skos:definition
+    "Een entiteit die geïnstantieerd kan worden."@nl ,
+    "An entity that may be instantiated."@en ;
+  skos:scopeNote
+    "Types omvatten wat we vaak soorten, categorieen, etc. noemen."@en ,
+    "Types encompass what we often call, sorts, kinds, categories, etc."@nl ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#Type> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#variabele collectie
+beg-gufo:VariableCollection
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "variable collection" ;
+  skos:prefLabel
+    "variable collection"@en ,
+    "variabele collectie"@nl ;
+  skos:definition
+    "Een collectie waarbij wijziging van lidmaatschap mogelijk is."@nl ,
+    "A collection for which change in membership is possible."@en ;
+     ;
+  skos:scopeNote
+    "..."@nl ,
+    "..."@en ;
+  dct:source
+    gufo: ,
+    <https://nemo-ufes.github.io/gufo/#...> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
+
+#moment
+beg-gufo:Instant
+  a skos:Concept ;
+  owl:deprecated "false"^^xsd:boolean ;
+  rdfs:label "instant" ;
+  skos:prefLabel
+    "instant"@en ,
+    "moment"@nl ;
+  skos:definition
+    "Een abstract individu die tijdsmomenten verzelfstandigt."@nl ,
+    "A abstract individual that reifies time instants."@en ;
+  skos:scopeNote
+    "Het wordt gebruikt als begin- of eindpunt in bepaalde relaties, zoals gufo:hasBeginPoint en gufo:hasEndPoint."@nl ,
+    "It is used as a target of the gufo:hasBeginPoint and gufo:hasEndPoint object properties."@en ;
+  dct:source
+    time: ,
+    <https://www.w3.org/2006/time#Instant> ;
+  skos:inScheme begkr-gufo:nlgufo ;
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nlgufo/0.1.0-snapshot-1> 
+.
