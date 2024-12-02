@@ -1,10 +1,10 @@
 # Tooling
 
-gUFO-gebruikers kunnen ook de volgende tool gratis gebruiken kan om mee te experimenteren.
+gUFO-gebruikers kunnen ook de volgende tool gratis gebruiken om mee te experimenteren.
 
 - [PLDN TriplyDB](https://data.pldn.nl/)
 
-De eerste versie van een nl-gUFO begrippenlijst is voor demo-doeleinden ook gepubliceerd in de PLDN TriplyDB.
+De eerste versie van een NL-gUFO begrippenlijst is voor demo-doeleinden ook gepubliceerd in de PLDN TriplyDB.
 
 - [NL-gUFO werkgroep](https://data.pldn.nl/nl-gufo-wg/-/datasets)
 
