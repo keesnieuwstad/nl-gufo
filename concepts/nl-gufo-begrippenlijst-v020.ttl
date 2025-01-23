@@ -14,7 +14,7 @@
 
 #########################################################################################
 #
-#   DIT BEGRIPPENKADER
+#   DIT BEGRIPPENKADER (zoveel mogelijk hetzelfde opgezet als de NL-SBB thesaurus)
 #
 #########################################################################################
 
@@ -68,7 +68,7 @@ beg-gufo:AbstractIndividual
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#AbstractIndividual> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #abstract individu type
@@ -89,7 +89,7 @@ beg-gufo:AbstractIndividualType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#AbstractIndividualType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #anti-rigide type
@@ -110,7 +110,7 @@ beg-gufo:AntiRigidType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#AntiRigidType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #aspect
@@ -131,7 +131,7 @@ beg-gufo:Aspect
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Aspect> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #categorie
@@ -152,7 +152,7 @@ beg-gufo:Category
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Category> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #collectie
@@ -173,7 +173,7 @@ beg-gufo:Collection
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Collection> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #vergelijkend relatietype
@@ -194,7 +194,7 @@ beg-gufo:ComparativeRelationshipType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#ComparativeRelationshipType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #concreet individu
@@ -215,7 +215,7 @@ beg-gufo:ConcreteIndividual
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#ConcreteIndividual> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #concreet individu type
@@ -236,7 +236,7 @@ beg-gufo:ConcreteIndividualType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#ConcreteIndividualType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #blijvend object
@@ -259,7 +259,7 @@ beg-gufo:Endurant
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Endurant> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #blijvend objecttype
@@ -280,7 +280,7 @@ beg-gufo:EndurantType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#EndurantType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gebeurtenis
@@ -301,7 +301,7 @@ beg-gufo:Event
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Event> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gebeurtenistype
@@ -322,7 +322,7 @@ beg-gufo:EventType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#EventType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #extrinsiek aspect
@@ -343,7 +343,7 @@ beg-gufo:ExtrinsicAspect
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#ExtrinsicAspect> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #extrinsieke modus
@@ -364,7 +364,7 @@ beg-gufo:ExtrinsicMode
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#ExtrinsicMode> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #vaste collectie
@@ -385,7 +385,7 @@ beg-gufo:FixedCollection
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#FixedCollection> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #functioneel complex object
@@ -406,7 +406,7 @@ beg-gufo:FunctionalComplex
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#FunctionalComplex> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #individu
@@ -427,7 +427,7 @@ beg-gufo:Individual
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Individual> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #instrinsiek aspect
@@ -448,7 +448,7 @@ beg-gufo:IntrinsicAspect
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#IntrinsicAspect> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #instrinsieke modus
@@ -469,7 +469,7 @@ beg-gufo:IntrinsicMode
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#IntrinsicMode> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #soort
@@ -490,7 +490,7 @@ beg-gufo:Kind
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Kind> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #materiaal relatie type
@@ -511,7 +511,7 @@ beg-gufo:MaterialRelationshipType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#MaterialRelationshipType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #mengsel
@@ -526,15 +526,15 @@ beg-gufo:Mixin
     "Een blijvend object type dat zowel niet-sortaal als semi-rigide is."@nl ,
     "An endurant type that is both non-sortal and semi-rigid. "@en ;
   skos:scopeNote
-    "Als semi-rigide type is het van toepassing op sommige van zijn instanties en afhankelijk van de omstandigheden op sommige andere"@nl ,
-    "Als niet-sortaal type vangt het eigenschappen op die worden gedeeld door instanties van verschillende soorten."@nl ,
-    "As a semi-rigid type, it applies necessarily to some of its instances and contingently to some others"@en , 
-    "As a non-sortal, it captures properties shared by instances of different kinds"@en ;
+    "1/2 - Als semi-rigide type is het van toepassing op sommige van zijn instanties en afhankelijk van de omstandigheden op sommige andere"@nl ,
+    "1/2 - Als niet-sortaal type vangt het eigenschappen op die worden gedeeld door instanties van verschillende soorten."@nl ,
+    "2/2 - As a semi-rigid type, it applies necessarily to some of its instances and contingently to some others"@en , 
+    "2/2 - As a non-sortal, it captures properties shared by instances of different kinds"@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Mixin> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #niet-rigide type
@@ -555,7 +555,7 @@ beg-gufo:NonRigidType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#NonRigidType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #niet sortaal
@@ -576,7 +576,7 @@ beg-gufo:NonSortal
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#NonSortal> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #object
@@ -597,7 +597,7 @@ beg-gufo:Object
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Object> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #deelname
@@ -618,7 +618,7 @@ beg-gufo:Participation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Participation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #fase
@@ -639,7 +639,7 @@ beg-gufo:Phase
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Phase> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #fase mengsel
@@ -660,7 +660,7 @@ beg-gufo:PhaseMixin
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#PhaseMixin> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #kwaliteit
@@ -681,7 +681,7 @@ beg-gufo:Quality
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Quality> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #kwaliteitswaarde
@@ -702,7 +702,7 @@ beg-gufo:QualityValue
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#QualityValue> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #kwaliteitwaarde toekenningstoestand
@@ -723,7 +723,7 @@ beg-gufo:QualityValueAttributionSituation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#QualityValueAttributionSituation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #hoeveelheid
@@ -744,7 +744,7 @@ beg-gufo:Quantity
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Quantity> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #relatietype
@@ -765,7 +765,7 @@ beg-gufo:RelationshipType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#RelationshipType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #relatiedrager
@@ -780,13 +780,13 @@ beg-gufo:Relator
     "Een extrinsiek aspect dat twee of meer concrete individuen verbindt (betrekt, bemiddelt)."@nl ,
     "An extrinsic aspect that connects (involves, mediates) two or more concrete individuals."@en ;
   skos:scopeNote
-    "Relators zijn relaties die verzelfstandigt zijn en die bestaan uit wederkerige extrinsieke modi."@nl ,
+    "Relatiedragers zijn relaties die verzelfstandigt zijn en die bestaan uit wederkerige extrinsieke modi."@nl ,
     "Relators are reified relationships composed of reciprocal extrinsic modes."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Relator> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #rigide type
@@ -807,7 +807,7 @@ beg-gufo:RigidType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#RigidType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #rol
@@ -828,7 +828,7 @@ beg-gufo:Role
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Role> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #rol mengsel
@@ -849,7 +849,7 @@ beg-gufo:RoleMixin
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#RoleMixin> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #semi-rigide type
@@ -870,7 +870,7 @@ beg-gufo:SemiRigidType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#SemiRigidType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #toestand
@@ -895,7 +895,7 @@ beg-gufo:Situation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Situation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #toestandstype
@@ -916,7 +916,7 @@ beg-gufo:SituationType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#SituationType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #sortaal
@@ -937,7 +937,7 @@ beg-gufo:Sortal
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Sortal> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #sub-soort
@@ -958,7 +958,7 @@ beg-gufo:SubKind
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#SubKind> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #tijdelijke samenstellingstoestand
@@ -979,7 +979,7 @@ beg-gufo:TemporaryConstitutionSituation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#TemporaryConstitutionSituation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #tijdelijke instantiatie toestand
@@ -1000,17 +1000,17 @@ beg-gufo:TemporaryInstantiationSituation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#TemporaryInstantiationSituation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
-#tijdelijk onderdeel van toestand
+#tijdelijke onderdeel van toestand
 beg-gufo:TemporaryParthoodSituation
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
   rdfs:label "temporary parthood situation" ;
   skos:prefLabel
     "temporary parthood situation"@en ,
-    "tijdelijk onderdeel van toestand"@nl ;
+    "tijdelijke onderdeel van toestand"@nl ;
   skos:definition
     "Een toestand waarin een blijvend object tijdelijk deel uitmaakt van een ander blijvend object."@nl ,
     "A situation in which a endurant is temporarily a part of another endurant."@en ;
@@ -1021,7 +1021,7 @@ beg-gufo:TemporaryParthoodSituation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#TemporaryParthoodSituation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #tijdelijke relatie toestand
@@ -1042,7 +1042,7 @@ beg-gufo:TemporaryRelationshipSituation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#TemporaryRelationshipSituation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #type
@@ -1063,7 +1063,7 @@ beg-gufo:Type
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#Type> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #variabele collectie
@@ -1085,7 +1085,7 @@ beg-gufo:VariableCollection
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#VariableCollection> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #moment
@@ -1106,7 +1106,7 @@ beg-gufo:Instant
     time: ,
     <https://www.w3.org/2006/time#Instant> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 
@@ -1117,16 +1117,16 @@ beg-gufo:Instant
 #########################################################################################
 
 
-#veroorzaakt door (ZIE AANTEKENINGEN)
+#bracht teweeg
 beg-gufo:broughtAbout
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
   rdfs:label "brought about" ;
   skos:prefLabel
     "brought about"@en ,
-    "veroorzaakt door"@nl ;
+    "bracht teweeg"@nl ;
   skos:definition
-    "Identificeert een toestand die wordt veroorzaakt door een gebeurtenis"@nl ,
+    "Identificeert een toestand die teweeg wordt gebracht door een gebeurtenis"@nl ,
     "Identifies a situation that is brought about by an event."@en ;
   skos:scopeNote
     "Guizzardi et al. (2013) namen notie van brings-about, waarmee gebeurtenissen gekoppeld kunnen worden aan een enkele maximale toestand, die alle effecten van de gebeurtenis manifesteerde op het moment dat deze eindigde."@nl ,
@@ -1135,7 +1135,7 @@ beg-gufo:broughtAbout
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#broughtAbout> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #categoriseert
@@ -1156,7 +1156,7 @@ beg-gufo:categorizes
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#categorizes> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #betreft samengesteld blijvend object
@@ -1177,7 +1177,7 @@ beg-gufo:concernsConstitutedEndurant
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsConstitutedEndurant> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #betreft niet-rigide type
@@ -1198,7 +1198,7 @@ beg-gufo:concernsNonRigidType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsNonRigidType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #betreft kwaliteittype
@@ -1219,7 +1219,7 @@ beg-gufo:concernsQualityType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsQualityType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #betreft verzelfstandigde kwaliteitswaarde
@@ -1240,7 +1240,7 @@ beg-gufo:concernsReifiedQualityValue
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsReifiedQualityValue> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #betreft gerelateerd blijvend object
@@ -1261,7 +1261,7 @@ beg-gufo:concernsRelatedEndurant
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsRelatedEndurant> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #betreft relatietype
@@ -1282,7 +1282,7 @@ beg-gufo:concernsRelationshipType
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsRelationshipType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #betreft tijdelijk geheel
@@ -1303,7 +1303,7 @@ beg-gufo:concernsTemporaryWhole
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsTemporaryWhole> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #vormt
@@ -1329,17 +1329,17 @@ beg-gufo:constitutes
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#constitutes> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
-#vooroorzakende gebeurtenis (ZIE AANTEKENINGEN)
+#droeg bij aan activering
 beg-gufo:contributedToTrigger
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
   rdfs:label "contributed to trigger" ;
   skos:prefLabel
     "contributed to trigger"@en ,
-    "veroorzakende gebeurtenis"@nl ;
+    "droeg bij aan activering"@nl ;
   skos:definition
     "Identificeert een gebeurtenis die heeft bijgedragen aan de toestand."@nl ,
     "Identifies an event that contributed to the situation."@en ;
@@ -1350,7 +1350,7 @@ beg-gufo:contributedToTrigger
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#contributedToTrigger> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #hangt extern af van
@@ -1371,7 +1371,7 @@ beg-gufo:externallyDependsOn
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#externallyDependsOn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft gerelateerd kwaliteitswaardetype
@@ -1389,13 +1389,13 @@ beg-gufo:hasAssociatedQualityValueType
     "..."@nl ,
     "..."@en ;
   skos:example
-    "1/1 - Een kwaliteitstype Kleur kan worden gekoppeld aan een kwaliteitswaardetype KleurWaardeInRGB."@nl ,
-    "1/1 - A quality type Color may be associated with a quality value type ColorValueInRGB."@en ;
+    "Een kwaliteitstype Kleur kan worden gekoppeld aan een kwaliteitswaardetype KleurWaardeInRGB."@nl ,
+    "A quality type Color may be associated with a quality value type ColorValueInRGB."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#hasAssociatedQualityValueType> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft beginpunt
@@ -1416,7 +1416,7 @@ beg-gufo:hasBeginPoint
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#hasBeginPoint> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft eindpunt
@@ -1437,7 +1437,7 @@ beg-gufo:hasEndPoint
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#hasEndPoint> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft verzelfstandigde kwaliteitswaarde
@@ -1458,7 +1458,7 @@ beg-gufo:hasReifiedQualityValue
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#hasReifiedQualityValue> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #hangt historisch af van
@@ -1476,13 +1476,13 @@ beg-gufo:historicallyDependsOn
     "..."@nl ,
     "..."@en ;
   skos:example
-    "1/1 - Een persoon is historisch afhankelijk van zijn/haar voorouders."@nl ,
-    "1/1 - A person is historically dependent on his/her ancestors."@en ;
+    "Een persoon is historisch afhankelijk van zijn/haar voorouders."@nl ,
+    "A person is historically dependent on his/her ancestors."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#historicallyDependsOn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #zit in
@@ -1508,7 +1508,7 @@ beg-gufo:inheresIn
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#inheresIn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is aspect van groter aspect
@@ -1529,7 +1529,7 @@ beg-gufo:isAspectProperPartOf
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isAspectProperPartOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is collectielid van
@@ -1539,7 +1539,7 @@ beg-gufo:isCollectionMemberOf
   rdfs:label "is collection member of" ;
   skos:prefLabel
     "is collection member of"@en ,
-    "is collectielid van"@nl ;
+    "is lid van collectie"@nl ;
   skos:definition
     "Identificeert de collectie waarvan het object lid is."@nl ,
     "Identifies collection of which the object is a member."@en ;
@@ -1555,7 +1555,7 @@ beg-gufo:isCollectionMemberOf
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isCollectionMemberOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is component van
@@ -1583,7 +1583,7 @@ beg-gufo:isComponentOf
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isComponentOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is afgeleid van
@@ -1609,7 +1609,7 @@ beg-gufo:isDerivedFrom
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isDerivedFrom> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is gebeurtenis binnen grotere gebeurtenis
@@ -1624,16 +1624,16 @@ beg-gufo:isEventProperPartOf
     "Identificeert een gebeurtenis waarvan de gebeurtenis deel uitmaakt."@nl ,
     "Identifies an event of which the event is part."@en ;
   skos:scopeNote
-    "Is passend onderdeel van event is transitief."@nl ,
+    "is gebeurtenis binnen grotere gebeurtenis is transitief."@nl ,
     "Is event proper part of is transitive."@en ;
   skos:example
-    "1/1 - De strafschop van Cristiano Ronaldo is een gebeurtenis die deel uitmaakt van de finale van het FIFA Club World Cup 2016, aangezien deze plaatsvond in de 60e minuut van die wedstrijd. Die wedstrijd is zelf een gebeurtenis die deel uitmaakt van het FIFA Club World Cup 2016."@nl ,
-    "1/1 - Cristiano Ronaldo's penalty kick is an event proper part of the 2016 FIFA Club World Cup Final, having ocurred in the 60th minute of that match. That match is itself an event proper part of the 2016 FIFA Club World Cup."@en ;
+    "De strafschop van Cristiano Ronaldo is een gebeurtenis die deel uitmaakt van de finale van het FIFA Club World Cup 2016, aangezien deze plaatsvond in de 60e minuut van die wedstrijd. Die wedstrijd is zelf een gebeurtenis die deel uitmaakt van het FIFA Club World Cup 2016."@nl ,
+    "Cristiano Ronaldo's penalty kick is an event proper part of the 2016 FIFA Club World Cup Final, having ocurred in the 60th minute of that match. That match is itself an event proper part of the 2016 FIFA Club World Cup."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isEventProperPartOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is object binnen groter object
@@ -1643,28 +1643,28 @@ beg-gufo:isObjectProperPartOf
   rdfs:label "is object proper part of" ;
   skos:prefLabel
     "is object proper part of"@en ,
-    "is object binnen groter object"@nl ;
+    "is object van groter object"@nl ;
   skos:definition
     "Identificeert een object waarvan het object een onderdeel is."@nl ,
     "Identifies a object of which the object is a part."@en ;
   skos:scopeNote
-    "Dit is een algemene deel-geheel relatie tussen objecten. Gebruik de verschillende sub-eigenschappen die aangeboden worden om specifieke deel-geheel typen te representeren, die elk gespecialiseerde semantiek hebben (en verschillende formele eigenschappen in deze implementatie, met name transitiviteit"@nl ,
+    "Dit is een algemene onderdeel van relatie tussen objecten. Gebruik de verschillende sub-eigenschappen die aangeboden worden om specifieke deel-geheel typen te representeren, die elk gespecialiseerde semantiek hebben (en verschillende formele eigenschappen in deze implementatie, met name transitiviteit"@nl ,
     "This is a general parthood relation between objects. Use the various sub-properties provided in order to represent specific types of parthood, each of which has specialized semantics (and different formal properties in this implementation, in particular, transitivity"@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isObjectProperPartOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
-#is onderdeel van groter geheel
+#is onderdeel van groter onderdeel
 beg-gufo:isProperPartOf
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
   rdfs:label "is proper part of" ;
   skos:prefLabel
     "is proper part of"@en ,
-    "is onderdeel van groter geheel"@nl ;
+    "is onderdeel binnen groter onderdeel"@nl ;
   skos:definition
     "Identificeert een geheel waarvan de entiteit een echt deel is."@nl ,
     "Identifies a whole of which the entity is a proper part."@en ;
@@ -1679,10 +1679,10 @@ beg-gufo:isProperPartOf
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isProperPartOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
-#is passend onderdeel van toestand (eerste vertaling)
+#is toestand binnen grotere toestand
 beg-gufo:isSituationProperPartOf
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
@@ -1707,7 +1707,7 @@ beg-gufo:isSituationProperPartOf
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isSituationProperPartOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is subcollectie van
@@ -1730,7 +1730,7 @@ beg-gufo:isSubCollectionOf
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isSubCollectionOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #is subhoeveelheid van
@@ -1748,23 +1748,23 @@ beg-gufo:isSubQuantityOf
     "Subhoeveelheden zijn altijd essentiële delen van hun geheel. Dus, gepositioneerd in gekwalificeerde deel-geheel relatie is niet van toepassing op subhoeveelheden."@nl ,
     "Sub-quantities are always essential parts of their wholes. Thus, stands in qualified parthood is not applicable for sub-quantities."@en ;
   skos:example
-    "1/1 - De hoeveelheid water in een wijnglas is een subhoeveelheid van de wijn in dat glas."@nl ,
-    "1/1 - The quantity of water in a wine glass is a sub-quantity of the wine in that glass."@en ;
+    "De hoeveelheid water in een wijnglas is een subhoeveelheid van de wijn in dat glas."@nl ,
+    "The quantity of water in a wine glass is a sub-quantity of the wine in that glass."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#isSubQuantityOf> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
-#gemanifesteerd in
+#manfifesteerde zich in
 beg-gufo:manifestedIn
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
   rdfs:label "manifested in" ;
   skos:prefLabel
     "manifested in"@en ,
-    "gemanifesteerd in"@nl ;
+    "manifesteerde zich in"@nl ;
   skos:definition
     "Identificeert een gebeurtenis waarin het aspect zich manifesteert."@nl ,
     "Identifies an event in which the aspect is manifested."@en ;
@@ -1772,13 +1772,13 @@ beg-gufo:manifestedIn
     "..."@nl ,
     "..."@en ;
   skos:example
-    "1/1 - Het stromen van elektriciteit door een geleider is een gebeurtenis die de manifestatie omvat van een aspect dat in een koperdraad zit (de elektrische geleidbaarheid van de draad)."@nl ,
-    "1/1 - The passing of an electrical current in a conductor is an event that encompasses the manifestation of an aspect inhering in a copper wire (the wire's  electrical conductivity)."@en ;
+    "Het stromen van elektriciteit door een geleider is een gebeurtenis die de manifestatie omvat van een aspect dat in een koperdraad zit (de elektrische geleidbaarheid van de draad)."@nl ,
+    "The passing of an electrical current in a conductor is an event that encompasses the manifestation of an aspect inhering in a copper wire (the wire's  electrical conductivity)."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#manifestedIn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #bemiddelt
@@ -1796,23 +1796,23 @@ beg-gufo:mediates
     "..."@nl ,
     "..."@en ;
   skos:example
-    "1/1 - Het huwelijk tussen John en Mary bemiddelt tussen John en Mary."@nl ,
-    "1/1 - John and Mary's marriage mediates John and Mary."@en ;
+    "Het huwelijk tussen John en Mary bemiddelt tussen John en Mary."@nl ,
+    "John and Mary's marriage mediates John and Mary."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#mediates> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
-#heeft deelgenomen aan
+#nam deel aan
 beg-gufo:participatedIn
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
   rdfs:label "participated in" ;
   skos:prefLabel
     "participated in"@en ,
-    "heeft deelgenomen aan"@nl ;
+    "nam deel aan"@nl ;
   skos:definition
     "Identificeert een gebeurtenis waaraan het object deelnam."@nl ,
     "Identifies an event in which the object participated."@en ;
@@ -1828,10 +1828,10 @@ beg-gufo:participatedIn
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#participatedIn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
-#splitst op / verdeelt (EERSTE VERTALING, deelt op?)
+#splitst op (EERSTE VERTALING, deelt op?)
 beg-gufo:partitions
   a skos:Concept ;
   owl:deprecated "false"^^xsd:boolean ;
@@ -1846,13 +1846,13 @@ beg-gufo:partitions
     "Het type dat opgesplitst wordt, wordt het basistype genoemd in het powertype-patroon, het hogere-orde type wordt vaak het powertype genoemd."@nl ,
     "The partitioned type is termed the base type in the powertype pattern, the higher-order type is often called the powertype."@en ;
   skos:example 
-    "1/1 - DierSoort splitst Dier op. Instanties van DierSoort zoals Leeuw, Hyena moeten disjuncte subklassen van Dier zijn. OWL 2 punning moet worden gebruikt om de twee facetten van Leeuw en Hyena in dit voorbeeld vast te leggen: (i) als exemplaren van DierSoort en (ii) als subklassen van Dier. Merk op dat het gesegmenteerde type (in het voorbeeld Dier) al dan niet kan worden gedeclareerd als een disjuncte vereniging van de expliciet opgesomde subklassen (zoals Leeuw, Hyena). Dit komt omdat er andere exemplaren van het hogere-orde type (Diersoort) kunnen bestaan die niet expliciet worden opgesomd in de ontologie."@nl ,
-    "1/1 - AnimalSpecies partitions Animal. Instances of AnimalSpecies such as Lion, Hiena must be disjoint subclasses of Animal. OWL 2 punning should be used to capture the two facets of Lion and Hiena in this example: (i) as instances of AnimalSpecies and (ii) as subclasses of Animal. Note that the partitioned type (in the example Animal) may or may not be declared to be a disjoint union of the explicitly enumerated subclasses (such as Lion, Hiena). This is because other instances of the higher-order type (AnimalSpecies) may exist that are not explicitly enumerated in the ontology."@en ;
+    "DierSoort splitst Dier op. Instanties van DierSoort zoals Leeuw, Hyena moeten disjuncte subklassen van Dier zijn. OWL 2 punning moet worden gebruikt om de twee facetten van Leeuw en Hyena in dit voorbeeld vast te leggen: (i) als exemplaren van DierSoort en (ii) als subklassen van Dier. Merk op dat het gesegmenteerde type (in het voorbeeld Dier) al dan niet kan worden gedeclareerd als een disjuncte vereniging van de expliciet opgesomde subklassen (zoals Leeuw, Hyena). Dit komt omdat er andere exemplaren van het hogere-orde type (Diersoort) kunnen bestaan die niet expliciet worden opgesomd in de ontologie."@nl ,
+    "AnimalSpecies partitions Animal. Instances of AnimalSpecies such as Lion, Hiena must be disjoint subclasses of Animal. OWL 2 punning should be used to capture the two facets of Lion and Hiena in this example: (i) as instances of AnimalSpecies and (ii) as subclasses of Animal. Note that the partitioned type (in the example Animal) may or may not be declared to be a disjoint union of the explicitly enumerated subclasses (such as Lion, Hiena). This is because other instances of the higher-order type (AnimalSpecies) may exist that are not explicitly enumerated in the ontology."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#partitions> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gepositioneerd in
@@ -1873,7 +1873,7 @@ beg-gufo:standsIn
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#standsIn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gepositioneerd in gekwalificeerde toekenning
@@ -1894,7 +1894,7 @@ beg-gufo:standsInQualifiedAttribution
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#standsInQualifiedAttribution> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gepositioneerd in gekwalificeerde samenstelling
@@ -1912,13 +1912,13 @@ beg-gufo:standsInQualifiedConstitution
     "De geïdentificeerde tijdelijke samenstellingstoestand is verder gerelateerd aan een blijvend object (het geheel) via de betreft samengesteld blijvend object objectproperty. Dit vormt een patroon om tijdelijke samenstellingen te vertegenwoordigen, waarin de relaties tussen de bestanddelen en het samengestelde blijvende object kunnen variëren in verschillende toestanden."@nl ,
     "The identified temporary constitution situation is further related with an endurant (the whole) through the concerns constituted endurant object property. This forms a pattern to represent temporary constitution, in which the relationships between constituents and constituted endurant vary in different situations."@en ;
   skos:example
-    "1/1 - Een groep mensen (die we opvatten als een vaste verzameling die een band vormt (begrepen als een functioneel complex object). In dit geval creëert elke verandering in het lidmaatschap van de groep (bijv. de vervanging van één persoon) een andere groep mensen. Daarom kan de samenstelling van de band in de loop van de tijd veranderen en is het patroon met behulp van tijdelijke samenstellingstoestanden van toepassing."@nl ,
-    "1/1 - A group of people (understood as a fixed collection constituting a band (understood as a functional complex). In this case, any change in the membership of the group (e.g., the replacement of one person) creates a different group of people. Therefore, the band's constitution can change in time, and the pattern using temporary constitution situation is applicable."@en ;
+    "Een groep mensen (die we opvatten als een vaste verzameling die een band vormt (begrepen als een functioneel complex object). In dit geval creëert elke verandering in het lidmaatschap van de groep (bijv. de vervanging van één persoon) een andere groep mensen. Daarom kan de samenstelling van de band in de loop van de tijd veranderen en is het patroon met behulp van tijdelijke samenstellingstoestanden van toepassing."@nl ,
+    "A group of people (understood as a fixed collection constituting a band (understood as a functional complex). In this case, any change in the membership of the group (e.g., the replacement of one person) creates a different group of people. Therefore, the band's constitution can change in time, and the pattern using temporary constitution situation is applicable."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#standsInQualifiedConstitution> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gepositioneerd in gekwalificeerde instantiatie
@@ -1939,7 +1939,7 @@ beg-gufo:standsInQualifiedInstantiation
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#standsInQualifiedInstantiation> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gepositioneerd in gekwalificeerde onderdeel van relatie
@@ -1960,7 +1960,7 @@ beg-gufo:standsInQualifiedParthood
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#standsInQualifiedParthood> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #gepositioneerd in gekwalificeerde relatie
@@ -1978,13 +1978,13 @@ beg-gufo:standsInQualifiedRelationship
     "De geïdentificeerde tijdelijke relatietoestand wordt vervolgens gebruikt met het betreft gerelateerd blijvend object and de betreft relatietype objectproperties om het gerelateerde element en het type relatie aan te geven dat van toepassing is. Dit vormt een patroon om relaties weer te geven die in verschillende toestanden kunnen veranderen. In het geval van materiële relaties, gebruik dan bij voorkeur een relatiedrager."@nl ,
     "The identified temporary relationship situation is then used with the concerns related endurant and the concerns relationship type object properties to indicate the related element and the type of relationship that applies. This forms a pattern to represent that relationships that may change in different situations. For material relations, prefer the use of relator."@en ;
   skos:example
-    "1/1 - zwaarderDan kan veranderen wanneer de betrokken objecten in gewicht toe- of afnemen."@nl ,
-    "1/1 - heavierThan may change when the objects involved gain or lose weight."@en ;
+    "zwaarderDan kan veranderen wanneer de betrokken objecten in gewicht toe- of afnemen."@nl ,
+    "heavierThan may change when the objects involved gain or lose weight."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#standsInQualifiedRelationship> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #werd aangemaakt in
@@ -2010,7 +2010,7 @@ beg-gufo:wasCreatedIn
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#wasCreatedIn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #werd beëindigd in
@@ -2028,13 +2028,13 @@ beg-gufo:wasTerminatedIn
     "..."@nl ,
     "..."@en ;
   skos:example
-    "1/1 - De Space Shuttle Challenger (OV-099) (een functioneel complex object) werd vernietigd tijdens de lancering van zijn tiende vlucht (een gebeurtenis)."@nl ,
-    "1/1 - The Space Shuttle Challenger (OV-099) (a functional complex) was destroyed during the launch of its tenth flight (an event)."@en ;
+    "De Space Shuttle Challenger (OV-099) (een functioneel complex object) werd vernietigd tijdens de lancering van zijn tiende vlucht (een gebeurtenis)."@nl ,
+    "The Space Shuttle Challenger (OV-099) (a functional complex) was destroyed during the launch of its tenth flight (an event)."@en ;
   dct:source
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#wasTerminatedIn> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #########################################################################################
@@ -2050,7 +2050,7 @@ beg-gufo:concernsQualityValue
   rdfs:label "concerns quality value" ;
   skos:prefLabel
     "concerns quality value"@en ,
-    "heeft kwaliteitswaarde"@nl ;
+    "betreft kwaliteitswaarde"@nl ;
   skos:definition
     "Bepaalt een kwaliteitswaarde die is gekoppeld aan het concrete individu dat in de kwaliteitswaardetoekenningssituatie staat."@nl ,
     "Determines a quality value associated with the concrete individual that stands in the quality value attribution situation."@en ;
@@ -2066,7 +2066,7 @@ beg-gufo:concernsQualityValue
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#concernsQualityValue> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft kwaliteitswaarde
@@ -2092,7 +2092,7 @@ beg-gufo:hasQualityValue
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#hasQualityValue> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft waardecomponent
@@ -2118,7 +2118,7 @@ beg-gufo:hasValueComponent
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#hasValueComponent> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #########################################################################################
@@ -2148,7 +2148,7 @@ beg-gufo:hasBeginPointInXSDDate
     gufo: ,
     <https://nemo-ufes.github.io/gufo/#hasBeginPointInXSDDate> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft beginpunt in XSDDateTimeStamp
@@ -2171,7 +2171,7 @@ beg-gufo:hasBeginPointInXSDDateTimeStamp
     gufo: ,
     <http://purl.org/nemo/gufo#hasBeginPointInXSDDateTimeStamp> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft eindpunt in XSDDate
@@ -2186,15 +2186,19 @@ beg-gufo:hasEndPointInXSDDate
     "Bepaalt het eindpunt voor een concrete individual met behulp van een xsd:date-literal."@nl ,
     "Determines the end point for a gufo:ConcreteIndividual using a xsd:date literal."@en ;
   skos:scopeNote
-    "In het geval van blijvende objecten bepaalt gufo:hasEndPointInXSDDate het tijdstip waarop het blijvend object ophoudt te bestaan. In het geval van gebeurtenissen bepaalt deze data-eigenschap het tijdstip waarop de gebeurtenis eindigt. In het geval van een toestand bepaalt het het tijdstip waarop de toestand ophoudt te bestaan."@nl ,
-    "In het geval van endurants bepaalt gufo:hasEndPointInXSDDate het tijdstip waarop de endurant ophoudt te bestaan. In het geval van events bepaalt deze data-eigenschap het tijdstip waarop de event eindigt. In het geval van situation bepaalt het het tijdstip waarop de situatie ophoudt te bestaan."@en ,
-    "Gebruik gufo:hasEndPoint wanneer tijdelijke entiteiten worden verzelfstandigd."@nl ,
-    "Use gufo:hasEndPoint instead when temporal entities are reified."@en ;
+    "1/4 - In het geval van blijvende objecten bepaalt gufo:hasEndPointInXSDDate het tijdstip waarop het blijvend object ophoudt te bestaan. In het geval van gebeurtenissen bepaalt deze data-eigenschap het tijdstip waarop de gebeurtenis eindigt. In het geval van een toestand bepaalt het het tijdstip waarop de toestand ophoudt te bestaan."@nl ,
+    "1/4 - In the case of endurants, gufo:hasEndPointInXSDDate determines the time point when the endurant ceases to exist."@en ,
+    "2-4 - IIn het geval van gebeurtenissen bepaalt deze dataproperty het tijdstip waarop de gebeurtenis eindigt."@en ,
+    "2/4 - In the case of events, this data property determines the time point when the event ends. In the case of situation, it determines the time point when the situation ceases to hold."@en ,
+    "4/4 - In het geval van een toestand bepaalt het het tijdstip waarop de toestand ophoudt te bestaan."@nl ,
+    "4/4 - In the case of situation, it determines the time point when the situation ceases to hold."@en ,
+    "4/4 - Gebruik gufo:hasEndPoint wanneer tijdelijke entiteiten worden verzelfstandigd."@nl ,
+    "4/4 - Use gufo:hasEndPoint instead when temporal entities are reified."@en ;
   dct:source
     gufo: ,
     <http://purl.org/nemo/gufo#hasEndPointInXSDDate> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
 
 #heeft eindpunt in XSDDateTimeStamp
@@ -2217,5 +2221,5 @@ beg-gufo:hasEndPointInXSDDateTimeStamp
     gufo: ,
     <http://purl.org/nemo/gufo#hasEndPointInXSDDateTimeStamp> ;
   skos:inScheme begkr-gufo:nl-gufo ;
-  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.1.0-snapshot-1> 
+  rdfs:isDefinedBy <http://begrippen.gufo.nl/id/begrippenkader/nl-gufo/0.2.0-snapshot-1> 
 .
