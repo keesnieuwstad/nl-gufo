@@ -1077,7 +1077,6 @@ beg-gufo:VariableCollection
   skos:definition
     "Een collectie waarbij wijziging van lidmaatschap mogelijk is."@nl ,
     "A collection for which change in membership is possible."@en ;
-     ;
   skos:scopeNote
     "..."@nl ,
     "..."@en ;
