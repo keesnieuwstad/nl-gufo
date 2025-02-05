@@ -11,11 +11,22 @@ Dit bestand is een hulpmiddel om de vertaling van Engelse gUFO teksten te stroom
 | Kind | Kind |  | 
 | Subkind | Subkind |  |
 | Role | Role |  |
+| Phase | Phase |  |
 | Mixin | Mixin |  |
+| Role mixin | Role mixin |  |
+| Phasse mixin | Phase mixin |  |
+| Relator | Relator |  |
 | Rigid | Rigid |  |
 | Anti-rigid | Anti-rigid |  |
 | Non-rigid | Non-rigid |  |
 | Semi-rigid | Semi-rigid |  |
+| Non-sortal | Non-sortal |  |
+| Sortal | Sortal |  |
+| Situation | Situation |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 |  |  |  |
 |  |  |  |
 
